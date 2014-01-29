@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <title>Evolving Demo</title>
+        <link rel="stylesheet" type="Text/CSS" href="evolving.css" />
+        <!-- Include YUI utilities and Ext: -->
+		<script type="text/javascript" src="lib/ext/adapter/yui/yui-utilities.js"></script>
+		<script type="text/javascript" src="lib/ext/adapter/yui/ext-yui-adapter.js"></script>
+		<script type="text/javascript" src="lib/ext/ext-all.js"></script>
+		<script type="text/javascript" src="lib/webtoolkit.sprintf.js"></script>
+		<script type="text/javascript" src="Logging.js"></script>
+		<script type="text/javascript" src="organism.js"></script>
+		<script type="text/javascript" src="environment.js"></script>
+		<script type="text/javascript" src="scenario.js"></script>
+		<script type="text/javascript" src="evolving.js"></script>
+        <!-- Include Ext stylesheets here: -->
+        <link rel="stylesheet" type="text/css" href="lib/ext/resources/css/ext-all.css" />
+        <link rel="stylesheet" type="text/css" href="lib/ext/resources/css/ytheme-vista.css" />
+    </head>
+
+    <body>
+        <div id="about_text">
+        	<h1>Evolving V1.0</h1>
+			
+			<p>Author: Orionrobots</p>
+			
+			<p>This little web app demonstrates evolution on a small scale. It was inspired 
+			by a couple of youtube videos where people had done a similar thing.</p>
+			
+			<p>Distributed under GPL V3.</p>
+			
+            <p>This was coded in response to:
+			<ul>
+				<li><a href="http://www.youtube.com/watch?v=SeTssvexa9s">How Evolution REALLY Works - cdk007</li>
+				<li><a href="http://www.youtube.com/watch?v=n9e2Rs-pQ_o&watch_response">Response to How Evolution REALLY Works - JunoRulz</a></li>
+			</ul>
+        </div>
+
+        <div id="parameters">
+            <div class="param">
+	            <label for="population_size">Population size:</label>
+				<input type="text" id="population_size" name="population_size" value="10" />
+			</div>
+
+            <div class="param">
+	            <label for="mutation_rate">Mutation Rate:</label>
+				<input type="text" id="mutation_rate" name="mutation_rate" value="0.02" />
+			</div>
+
+            <div class="param">
+                Environmental R G B: 
+				<input type="text" id="environmental_r" name="environmental_r" value="10" /> 
+				<input type="text" id="environmental_g" name="environmental_g" value="10" /> 
+				<input type="text" id="environmental_b" name="environmental_b" value="10" />
+            </div>
+
+			<div class="param">
+	            <label for="predatory_factor">Predatory Factor:</label>
+				<input type="text" id="predatory_factor" name="predatory_factor" value="2" />
+			</div>
+			<div class="param">
+				<label for="bad_luck_factor">Bad Luck Factor:</label>
+				<input type="text" id="bad_luck_factor" name="bad_luck_factor" value="2"/>
+			</div>
+        </div>
+        <div id="canvas">
+			<div id="toolbar" />        	
+        </div>
+        <div id="log">
+        </div>
+    </body>
+</html>
+
