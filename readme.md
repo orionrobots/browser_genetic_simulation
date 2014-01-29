@@ -39,7 +39,9 @@ At the end of that phase, the environment is now populated with a completely new
 Press “step” again. This time, the colours will noticeably be sorted between the unlucky and predatory phase, so those more suitable will be at the bottom right of the screen. It is clear the predator favours those at the top left. Step a few times, and after about 5-7 generations, you should start to see them approaching the background colour.
 
 Now try a few of your own parameters - try smaller populations (sorry it cannot yet go above 100), try different predatory and unlucky factors (they should add up to less than 100 between them), and then press “init” to apply the parameters. You can then experiment to see the effects of different settings.
+
 What is this good for?
+======================
 
 This is a very, very simple demonstration of a genetic algorithm. But they can be used as a way to find unusual solutions to a problem. Imagine a complex mathematical problem - including some of those that are known to be difficult for neural net learning rules to deal with, and this method may be able to find a solution where they cannot.
 
