@@ -2,6 +2,8 @@ Genetic Algorithm Simulation
 
 (Sun, 25th Nov 2007)
 
+Go to <http://orionrobots.github.io/browser_genetic_simulation/evolving.html> for a live demonstration.
+
 This is a simplistic browser based GA simulation.
 
 Opening this in a browser with JS you will see an application with a large canvas, a toolbar at the top, a sidebar with some parameters, and a bottom area with a log message stating that the logger was initialised.
